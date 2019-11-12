@@ -37,11 +37,12 @@ public class Game /*implements Serializable*/ {
 	@Column(name="gameType")
 	private GameType gametype;	
 	
-	public enum Privacity{PUBLICA,PRIVADA,OCULTA};
-	@Column(name="privacity")
-	private Privacity privacity;
-	
-	public enum GameState{ABIERTA,CERRADA,CADUCADA};
+	/*
+	 * public enum Privacity{PUBLICA,PRIVADA,OCULTA};
+	 * 
+	 * @Column(name="privacity") private Privacity privacity;
+	 */
+	public enum GameState{PUBLICA,OCULTA,CERRADA,CADUCADA};
 	@Column(name="gameState")
 	private GameState gamestate;
 
