@@ -1,6 +1,6 @@
 package com.games.GameSearch;
 
-import java.io.Serializable;
+
 import java.util.Date;
 
 import javax.persistence.Column;

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<link rel="stylesheet"
+	href="/webjars/bootstrap/4.2.1/css/bootstrap.min.css">
+<script src="/webjars/jquery/3.0.0/jquery.min.js"></script>
+<script src="/webjars/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<style>
+form { margin: 20px;}
+</style>
+</head>
+<body>
+	<form action="addUserRelation">
+		<div class="form-group">
+			<label for="userId">userId</label> <input type="text" name="userId"
+				class="form-control" id="userId" />
+
+			<div class="form-group">
+				<label for="userTarget">userTarget:</label><input type="text"
+					name="userTarget" class="form-control" id="userTarget" />
+			</div>
+			<div class="form-group">
+				<label for="friendship">friendship:</label><input type="text" name="friendship"
+					class="form-control" id="friendship" />
+			</div>
+			
+			<div class="form-group">
+			<input type="submit" value="SEND" class="btn btn-primary" />
+		</div>
+		</div>
+
+	</form>
+</body>
+</html>
